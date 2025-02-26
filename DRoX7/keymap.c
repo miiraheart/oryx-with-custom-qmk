@@ -198,7 +198,7 @@ bool process_record_user(uint16_t keycode, keyrecord_t *record) {
   switch (keycode) {
     case ST_MACRO_0:
     if (record->event.pressed) {
-      SEND_STRING(SS_LSFT(SS_TAP(X_ESCAPE)) SS_DELAY(100) SS_TAP(X_KP_DOT));
+      SEND_STRING(SS_LSFT(SS_TAP(X_ESCAPE)) SS_DELAY(1) SS_TAP(X_KP_DOT));
     }
     break;
     case ST_MACRO_1:
