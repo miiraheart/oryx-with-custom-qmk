@@ -10,4 +10,3 @@ COMBO_ENABLE = yes
 
 #custom changes
 KEY_OVERRIDE_ENABLE = yes
-SRC += features/achordion.c
