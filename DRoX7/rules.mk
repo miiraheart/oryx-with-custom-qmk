@@ -7,4 +7,6 @@ RGB_MATRIX_CUSTOM_KB = yes
 TAP_DANCE_ENABLE = yes
 SPACE_CADET_ENABLE = no
 COMBO_ENABLE = yes
+
+#custom changes
 KEY_OVERRIDE_ENABLE = yes
